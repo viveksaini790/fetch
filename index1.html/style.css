@@ -1,0 +1,12 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+.row{ display: grid; grid-template-columns: 25% auto; gap: 10px;}
+.left{text-align: center; background: lightblue; padding: 10px;}
+.prow{display: grid; grid-template-columns: auto auto auto auto; gap: 10px;}
+.product{border: 1px solid blue;}
+.product img{height: auto; max-width: 100%;}
+.data{padding: 10px; line-height: 28px;}
+
+.left ul{list-style: none; margin-top: 10px;}
+.left li{text-align: center; width: 100%; padding: 15px 0px; margin-top: 2px; background: yellow;}
+.left #mylist{font-size: 24px; background: blue; color: white;}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbody">
+        <div class="row">
+            <div class="left">
+                <ul>
+                    <li id="mylist">category</li>
+                    <li><a href="#" onclick="filterdata('mobile')">Mobile</a></li>
+                    <li><a href="#" onclick="filterdata('shirt')">Shirt</a></li>
+                    <li><a href="#" onclick="filterdata('watch')">Watch</a></li>
+                </ul>
+                <ul>
+                    <li id="mylist">Sub-category for mobile</li>
+                    <li><a href="#" onclick="filterdata('mobile','nokia')">nokia</a></li>
+                    <li><a href="#" onclick="filterdata('mobile','lg')">lg</a></li>
+                    <li><a href="#" onclick="filterdata('mobile','samsung')">samsung</a></li>
+                </ul>
+                <!-- <ul>
+                    <li id="mylist">Sub-category for mobile</li>
+                    <li><a href="#" onclick="subfilter('mobile','nokia')">nokia</a></li>
+                    <li><a href="#" onclick="subfilter('mobile','lg')">lg</a></li>
+                    <li><a href="#" onclick="subfilter('mobile','samsung')">samsung</a></li>
+                </ul> -->
+                <ul>
+                    <li id="mylist">Sub-category for shirt</li>
+                    <li><a href="#">man</a></li>
+                    <li><a href="#">women</a></li>
+                    <li><a href="#">kids</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="prow" id="myrow"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="result.js"></script>
+</body>
+</html>
